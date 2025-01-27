@@ -1,0 +1,38 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/todoBackground.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white; /* Set a default text color that contrasts with your background image */
+}
+
+.app-header {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.app-content {
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 1rem;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

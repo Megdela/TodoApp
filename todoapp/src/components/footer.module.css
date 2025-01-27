@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(82, 79, 79, 0.6); 
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+  transition: background-color 0.3s ease; 
+  color: white; 
+}
+
+.footer:hover {
+  background-color: rgba(82, 79, 79, 0.8); 
+}
+
+.item {
+  margin: 50px;
+}
